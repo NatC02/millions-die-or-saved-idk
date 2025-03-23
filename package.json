@@ -1,0 +1,20 @@
+{  
+  "name": "millions-die-or-saved-idk",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build || true",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@three.ez/main": "^0.5.7",
+    "@three.ez/instanced-mesh": "^0.2.8",
+    "three": "^0.170.0"
+  },
+  "devDependencies": {
+    "@types/three": "^0.170.0",
+    "typescript": "^5.2.2",
+    "vite": "^4.4.9"
+  }
+}
